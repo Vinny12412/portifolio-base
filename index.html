@@ -54,14 +54,14 @@
         <div class="skill">
   <li><span>CSS                        17%</span>
   <div class="progress-bar">
-    <div class="progress" style="width: 15%"></div>
+    <div class="progress" style="width: 17%"></div>
   </div>
 </div></li>
 
        <div class="skill">
   <li><span>Python                     13%</span>
   <div class="progress-bar">
-    <div class="progress" style="width: 15%"></div>
+    <div class="progress" style="width: 13%"></div>
   </div>
 </div></li>
     </ul>
@@ -72,16 +72,21 @@
 <section>
     <h3>Seção de aprendizados</h3>
     <ul>
-        <li>Exemplos de código</li>
-        <li>Dicas</li>
-        <li>tecnologias que estou aprendendo</li>
-        <li>**** INCLUIR FORMULÁRIO PARA ENVIO DE COMENTÁRIOS</li>
+        <li>Estou aprendendo a se comunicar de forma clara e precisa, tanto com máquinas quanto com outros programadores.</li>
+        <li>print('Wello World')</li>
+        <li>Praticar a resolução de problemas de forma sistemática e buscar ajuda quando necessário.</li>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="35" placeholder="Deixe seu comentário"></textarea>
+        <input type="submit" value="Enviar">
     </ul>
 </section>
 
-<section>
-    <h3>Galeria de fotos</h3>
-    <img src="https://i.pinimg.com/736x/45/3d/06/453d064d60bdb5c26981942cf9101b54.jpg" width="100" height="100"/>
+<h3>Galeria de fotos</h3>
+<section class="container flex">
+    <div class="item"> <img src="https://media.istockphoto.com/id/1448737609/pt/foto/over-the-shoulder-angle-of-a-young-female-gamer-winning-in-a-video-game-on-personal-computer.jpg?s=612x612&w=0&k=20&c=zy70FFNOvYcvqJXHw1h9CT1yJqdrChuFmJxiAZLuxag=" width="120" height="120"/></div>
+    <div class="item"> <img src="https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2020/05/reveal-reactora-valorant.jpg" width="120" height="120"/></div>
+    <div class="item"> <img src="https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg" width="120" height="120"/></div>
+    <div class="item"> <img src="https://blog.geekhunter.com.br/wp-content/uploads/2019/07/licoes-que-aprendi-ao-come%C3%A7a-a-programar-em-equipe.jpg" width="120" height="120"/></div>
+    <div class="item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStPOdsZayR3zoVRgvyxDtW05GiE00FJrGF3Q&s" width="120" height="120"/></div>
 </section>
 
 <section>
@@ -99,12 +104,22 @@
 <section> 
     <h3>Página de contatos</h3>
     <ul>
-        <li>Formulário de contato</li>
-        <li>Nome</li>
-        <li>Email(podemos integrar email de envio direto)</li>
-        <li>assunto</li>
-        <li>telefone</li>
-        <li>Botão enviar</li>
+        <li>
+            <h3>Formulário</h3>
+    <form action="/cadastrar_usuario">
+        <label for="nome">Nome:</label>
+        <input id="nome" name="nome" type="text" placeholder="Digite seu nome"><br/>
+
+        <label for="Email">Email :</label>
+        <input id="Email" type="text"><br/>
+        <label for="telefone">Contato :</label>
+        <input id="telefone" name="telefone" type="text" placeholder="Digite seu telefone"><br/>
+        
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea><br/>
+
+        <input type="submit" value="Enviar">
+    </form>
+        </li>
 </section>
 
 
